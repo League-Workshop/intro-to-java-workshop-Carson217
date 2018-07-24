@@ -9,7 +9,23 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 	
+ Robot Emrald = new Robot("batman");
 		
-		
+ Emrald.setSpeed(400);
+ void drawsquare() {
+	 
+ Emrald.penDown();
+ 
+ for(int i = 0; i<4; i++) {
+	 
+	 Emrald.move(100);
+
+	 Emrald.turn(90);
+	 
+ }
+ 
+ 
+ 
+
 	}
 }

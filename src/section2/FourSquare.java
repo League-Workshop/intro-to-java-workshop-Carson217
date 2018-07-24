@@ -17,6 +17,7 @@ public class FourSquare {
 			// 7. Set the pen color to random
 	
 			// 1. Call the drawSquare() method
+		drawSquare();
 	
 			// 8. Turn the robot 90 degrees to the right
 
@@ -26,6 +27,19 @@ public class FourSquare {
 	void drawSquare() {
 		JOptionPane.showMessageDialog(null, "yay! you called the drawSquare() method!");
 		/* 3. Fill in the code to draw a square inside the method below. */
+		 Robot Emrald = new Robot("batman");
+			Emrald.penDown();
+			Emrald.setPenWidth(5);
+		 Emrald.setSpeed(500);
+		 Emrald.setRandomPenColor();
+		 for(int i = 0; i<4; i++) {
+			
+			 Emrald.move(100);
+
+			 Emrald.turn(90);
+			 
+		 }
+		 
 		
 		
 	}
